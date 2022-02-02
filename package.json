@@ -1,0 +1,48 @@
+{
+  "name": "download",
+  "version": "1.0.0",
+  "description": "The source code for download.mycrypto.com",
+  "repository": "https://github.com/MyCryptoHQ/download",
+  "author": "MyCryptoHQ",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop",
+    "lang:extract": "lingui extract",
+    "lang:compile": "lingui compile",
+    "format": "prettier --write --ignore-path .gitignore \"**/*.{ts,tsx,js,json,yml,mdx}\""
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "@lingui/babel-preset-react": "^2.9.2",
+    "@lingui/cli": "^3.13.2",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/semver": "^7.3.9",
+    "babel-plugin-styled-components": "^2.0.2",
+    "babel-preset-gatsby": "^2.5.2",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "gatsby": "^4.5.5",
+    "gatsby-plugin-styled-components": "^5.6.0",
+    "gatsby-plugin-ts-config": "^2.1.3",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@fontsource/lato": "^4.5.1",
+    "@lingui/core": "^3.13.2",
+    "@lingui/macro": "^3.13.2",
+    "@lingui/react": "^3.13.2",
+    "@mycrypto/ui": "^1.11.1",
+    "babel-runtime": "^6.26.0",
+    "lodash.merge": "^4.6.2",
+    "make-plural": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "semver": "^7.3.5",
+    "styled-components": "^5.3.3"
+  }
+}
