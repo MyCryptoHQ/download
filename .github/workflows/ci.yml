@@ -63,7 +63,7 @@ jobs:
         with:
           path: |
             node_modules
-          key: ${{ hashFiles('yarn.lock') }}-${{ hashFiles('config/**/*') }}
+          key: ${{ hashFiles('yarn.lock') }}
 
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
