@@ -126,7 +126,7 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
         <td>
           <Icon type="checkmark" width="30px" fill="overview.check" />
@@ -148,7 +148,7 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
       </tr>
       <tr>
@@ -167,7 +167,7 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
       </tr>
       <tr>
@@ -180,13 +180,13 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
         <td>
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
       </tr>
       <tr>
@@ -199,13 +199,13 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
         <td>
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
       </tr>
       <tr>
@@ -221,10 +221,10 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
       </tr>
       <tr>
@@ -240,10 +240,10 @@ export const Overview: FunctionComponent = () => (
           <Icon type="checkmark" width="30px" fill="overview.check" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
         <td>
-          <Icon type="warning" width="30px" fill="overview.uncheck" />
+          <Icon type="delete" width="30px" fill="overview.uncheck" />
         </td>
       </tr>
     </tbody>
