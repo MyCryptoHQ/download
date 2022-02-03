@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro';
-import type { ButtonProps} from '@mycrypto/ui';
+import type { ButtonProps } from '@mycrypto/ui';
 import { Box, Button, Icon } from '@mycrypto/ui';
 import type { FunctionComponent } from 'react';
 
