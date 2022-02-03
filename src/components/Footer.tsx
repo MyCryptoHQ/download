@@ -30,6 +30,6 @@ export const Footer: FunctionComponent = () => (
       ))}
     </FooterLinks>
     <FooterSeparator order={3} />
-    <FooterDonateAndSubscribe listId="foo" tag="download.mycrypto.com" />
+    <FooterDonateAndSubscribe listId="7dd574156f" tag="download.mycrypto.com" />
   </UIFooter>
 );
