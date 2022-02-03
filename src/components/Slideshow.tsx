@@ -28,9 +28,7 @@ export const SlideshowButton: FunctionComponent<SlideshowButtonProps> = ({
   onClick,
   index
 }) => {
-  const handleClick = () => {
-    onClick(index);
-  };
+  const handleClick = () => onClick(index);
 
   return (
     <SubHeading
