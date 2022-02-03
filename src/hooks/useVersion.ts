@@ -39,6 +39,7 @@ export const useVersion = (): string => {
       .then((json: Release[]) =>
         json
           .filter((release) => !!valid(coerce(release.tag_name)))
+          // TODO: Remove
           .filter((release) => release.prerelease)
           .map((release) => ({
             ...release,

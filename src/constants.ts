@@ -13,7 +13,7 @@ import type { Slide } from './components';
 
 /**
  * URL for the old desktop application.
- * TODO: Figure out where this should link to.
+ * TODO: This won't work when we do releases for MyCrypto that aren't prereleases.
  */
 export const DESKTOP_APP_URL = 'https://github.com/MyCryptoHQ/MyCrypto/releases/latest';
 
