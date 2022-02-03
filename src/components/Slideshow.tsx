@@ -70,9 +70,9 @@ export const Slideshow: FunctionComponent<SlideshowProps> = ({
   );
 
   return (
-    <Box display="flex" alignItems="center">
+    <Box display="flex">
       {imagePosition === 'left' && image}
-      <Box>
+      <Box marginTop="120px">
         <Heading>{title}</Heading>
         <Box display="flex" marginTop="3">
           {slides.map((value, index) => (
