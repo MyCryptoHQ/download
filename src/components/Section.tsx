@@ -1,5 +1,6 @@
-import { FunctionComponent } from 'react';
-import { Box, BoxProps } from '@mycrypto/ui';
+import type { BoxProps } from '@mycrypto/ui';
+import { Box } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
 
 export const Section: FunctionComponent<BoxProps> = ({ children, ...props }) => (
   <Box

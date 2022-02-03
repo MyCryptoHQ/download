@@ -1,4 +1,7 @@
-import { FunctionComponent } from 'react';
+import { t, Trans } from '@lingui/macro';
+import { Button, Container, Heading, InlineBody, SubHeading } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
+
 import {
   Banner,
   DownloadLinks,
@@ -9,15 +12,13 @@ import {
   Section,
   Slideshow
 } from '../components';
-import { Button, Container, Heading, InlineBody, SubHeading } from '@mycrypto/ui';
-import { t, Trans } from '@lingui/macro';
+import { Overview } from '../components/Overview';
 import {
   DESKTOP_APP_URL,
   FEATURES_SLIDES,
   GETTING_STARTED_SLIDES,
   SECONDARY_FEATURES_SLIDES
 } from '../constants';
-import { Overview } from '../components/Overview';
 
 const Index: FunctionComponent = () => (
   <Page>

@@ -1,5 +1,6 @@
-import { FunctionComponent, useEffect, useState } from 'react';
 import { Body, Box, Heading, Image, SubHeading } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
+import { useEffect, useState } from 'react';
 
 export interface Slide {
   title: string;
@@ -78,6 +79,7 @@ export const Slideshow: FunctionComponent<SlideshowProps> = ({
         <Box display="flex" marginTop="3">
           {slides.map((value, index) => (
             <SlideshowButton
+              key={`slide-${value.title}`}
               title={value.title}
               isActive={index === slide}
               index={index}

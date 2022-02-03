@@ -1,8 +1,9 @@
 import { t, Trans } from '@lingui/macro';
 import { Body, Box, Button, Heading, Image, SubHeading } from '@mycrypto/ui';
-import { FunctionComponent } from 'react';
-import { useVersion } from '../hooks';
+import type { FunctionComponent } from 'react';
+
 import hero from '../assets/images/hero.png';
+import { useVersion } from '../hooks';
 
 export const Hero: FunctionComponent = () => {
   const version = useVersion();

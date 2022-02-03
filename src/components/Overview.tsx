@@ -1,10 +1,11 @@
-import { FunctionComponent } from 'react';
-import { Body, Box, Icon, Image } from '@mycrypto/ui';
 import { t, Trans } from '@lingui/macro';
-import quill from '../assets/images/quill.svg';
-import mycrypto from '../assets/images/mycrypto.svg';
-import metamask from '../assets/images/metamask.svg';
+import { Body, Box, Icon, Image } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
+
 import exodus from '../assets/images/exodus.svg';
+import metamask from '../assets/images/metamask.svg';
+import mycrypto from '../assets/images/mycrypto.svg';
+import quill from '../assets/images/quill.svg';
 
 export const Overview: FunctionComponent = () => (
   <Box

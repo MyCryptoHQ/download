@@ -1,10 +1,11 @@
-import { FunctionComponent } from 'react';
-import { Body, Box } from '@mycrypto/ui';
-import { Feature } from './Feature';
 import { t, Trans } from '@lingui/macro';
-import secure from '../assets/images/secure.svg';
-import offline from '../assets/images/offline.svg';
+import { Body, Box } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
+
 import desktop from '../assets/images/desktop.svg';
+import offline from '../assets/images/offline.svg';
+import secure from '../assets/images/secure.svg';
+import { Feature } from './Feature';
 
 export const Features: FunctionComponent = () => (
   <Box

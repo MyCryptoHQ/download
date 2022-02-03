@@ -1,4 +1,5 @@
-import { FunctionComponent } from 'react';
+import type { FunctionComponent } from 'react';
+
 import Root from '../Root';
 import { Footer } from './Footer';
 

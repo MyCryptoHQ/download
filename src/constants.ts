@@ -1,14 +1,15 @@
-import type { Slide } from './components';
 import { t } from '@lingui/macro';
+
 import featuresSlide0 from './assets/images/features-slide-0.png';
 import featuresSlide1 from './assets/images/features-slide-1.png';
 import featuresSlide2 from './assets/images/features-slide-2.png';
-import secondaryFeaturesSlide0 from './assets/images/secondary-features-slide-0.svg';
-import secondaryFeaturesSlide1 from './assets/images/secondary-features-slide-1.svg';
-import secondaryFeaturesSlide2 from './assets/images/secondary-features-slide-2.svg';
 import gettingStartedSlide0 from './assets/images/getting-started-slide-0.svg';
 import gettingStartedSlide1 from './assets/images/getting-started-slide-1.svg';
 import gettingStartedSlide2 from './assets/images/getting-started-slide-2.svg';
+import secondaryFeaturesSlide0 from './assets/images/secondary-features-slide-0.svg';
+import secondaryFeaturesSlide1 from './assets/images/secondary-features-slide-1.svg';
+import secondaryFeaturesSlide2 from './assets/images/secondary-features-slide-2.svg';
+import type { Slide } from './components';
 
 /**
  * URL for the old desktop application.

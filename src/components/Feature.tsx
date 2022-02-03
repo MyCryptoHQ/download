@@ -1,5 +1,5 @@
-import { FunctionComponent } from 'react';
 import { Box, Image } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
 
 export interface FeatureProps {
   image: string;

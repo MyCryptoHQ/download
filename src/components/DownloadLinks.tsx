@@ -1,9 +1,10 @@
-import { FunctionComponent } from 'react';
-import { Box, Button, Image } from '@mycrypto/ui';
-import apple from '../assets/images/apple.svg';
-import windows from '../assets/images/windows.svg';
-import linux from '../assets/images/linux.svg';
 import { t, Trans } from '@lingui/macro';
+import { Box, Button, Image } from '@mycrypto/ui';
+import type { FunctionComponent } from 'react';
+
+import apple from '../assets/images/apple.svg';
+import linux from '../assets/images/linux.svg';
+import windows from '../assets/images/windows.svg';
 
 // TODO: Actually link the buttons to the download
 export const DownloadLinks: FunctionComponent = () => (

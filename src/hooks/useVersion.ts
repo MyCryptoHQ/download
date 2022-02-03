@@ -47,6 +47,7 @@ export const useVersion = (): string => {
           .sort((a, b) => (gt(b.tag_name, a.tag_name) ? 1 : -1))
       )
       .then((json) => json[0] && setVersion(json[0].tag_name.format()))
+      // eslint-disable-next-line no-console
       .catch(console.error);
   }, []);
 
