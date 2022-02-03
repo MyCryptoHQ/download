@@ -1,25 +1,42 @@
-import { t, Trans } from '@lingui/macro';
-import { Box, Button, Image } from '@mycrypto/ui';
+import { Trans } from '@lingui/macro';
+import type { ButtonProps} from '@mycrypto/ui';
+import { Box, Button, Icon } from '@mycrypto/ui';
 import type { FunctionComponent } from 'react';
 
-import apple from '../assets/images/apple.svg';
-import linux from '../assets/images/linux.svg';
-import windows from '../assets/images/windows.svg';
+export const DownloadButton: FunctionComponent<ButtonProps> = ({ children, ...props }) => (
+  <Button
+    variant="inverted"
+    fontWeight="bold"
+    height="56px"
+    lineHeight="1"
+    sx={{
+      svg: {
+        transition: 'fill 0.12s ease 0s'
+      },
+      ':hover svg': {
+        fill: 'white'
+      }
+    }}
+    {...props}
+  >
+    {children}
+  </Button>
+);
 
 // TODO: Actually link the buttons to the download
 export const DownloadLinks: FunctionComponent = () => (
   <Box>
-    <Button variant="inverted" fontWeight="bold" height="56px" marginRight="3">
-      <Image src={apple} alt={t`Apple`} height="20px" marginRight="3" />
+    <DownloadButton marginRight="3">
+      <Icon type="apple" fill="primary" width="20px" height="20px" marginRight="3" />
       <Trans>MacOS</Trans>
-    </Button>
-    <Button variant="inverted" height="56px" marginRight="3">
-      <Image src={windows} alt={t`Windows`} height="20px" marginRight="3" />
+    </DownloadButton>
+    <DownloadButton marginRight="3">
+      <Icon type="windows" fill="primary" width="20px" height="20px" marginRight="3" />
       <Trans>Windows</Trans>
-    </Button>
-    <Button variant="inverted" height="56px">
-      <Image src={linux} alt={t`Linux`} height="20px" marginRight="3" />
+    </DownloadButton>
+    <DownloadButton>
+      <Icon type="linux" fill="primary" width="20px" height="20px" marginRight="3" />
       <Trans>Linux</Trans>
-    </Button>
+    </DownloadButton>
   </Box>
 );
