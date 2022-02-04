@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-01-31 15:25+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/index.tsx:34
+msgid "<0>Looking for the Desktop App?</0> It's still <1>available</1>, but is no longer being actively maintained."
+msgstr ""
+
+#: src/components/Features.tsx:29
+#: src/components/Features.tsx:31
+msgid "Access MyCrypto from your desktop"
+msgstr ""
+
+#: src/constants.ts:32
+msgid "Access any network"
+msgstr ""
+
+#: src/constants.ts:40
+msgid "Access securely"
+msgstr ""
+
+#: src/constants.ts:42
+msgid "All the features MyCrypto has to offer - accessible safely from your desktop."
+msgstr ""
+
+#: src/components/Overview.tsx:100
+msgid "Compatible with EVM chains"
+msgstr ""
+
+#: src/constants.ts:24
+msgid "Connect Quill to MyCrypto.com and approve your transactions directly from the desktop."
+msgstr ""
+
+#: src/constants.ts:68
+msgid "Connect to MyCrypto"
+msgstr ""
+
+#: src/constants.ts:29
+msgid "Create a 12-word secret recovery phrase to generate new wallets, and import all your other loose wallets."
+msgstr ""
+
+#: src/constants.ts:27
+msgid "Create wallets"
+msgstr ""
+
+#: src/components/Overview.tsx:81
+msgid "Create/import wallets"
+msgstr ""
+
+#: src/components/Overview.tsx:58
+#: src/components/Overview.tsx:60
+msgid "Desktop App"
+msgstr ""
+
+#: src/components/Hero.tsx:23
+#: src/pages/index.tsx:62
+#: src/pages/index.tsx:102
+msgid "Download Now"
+msgstr ""
+
+#: src/constants.ts:60
+msgid "Download and install Quill for for your operating system of choice."
+msgstr ""
+
+#: src/components/Overview.tsx:119
+msgid "Downloadable application"
+msgstr ""
+
+#: src/constants.ts:45
+msgid "Encrypt your keys"
+msgstr ""
+
+#: src/components/Overview.tsx:70
+#: src/components/Overview.tsx:72
+msgid "Exodus"
+msgstr ""
+
+#: src/constants.ts:65
+msgid "Generate a new 12-word secret recovery phrase and/or import and existing wallet."
+msgstr ""
+
+#: src/pages/index.tsx:52
+msgid "Get Quill Now!"
+msgstr ""
+
+#: src/pages/index.tsx:92
+msgid "Getting started with Quill"
+msgstr ""
+
+#: src/components/Overview.tsx:138
+msgid "Import private keys/keystore files"
+msgstr ""
+
+#: src/constants.ts:58
+msgid "Install Quill"
+msgstr ""
+
+#: src/components/Overview.tsx:176
+msgid "Interact with MyCrypto.com"
+msgstr ""
+
+#: src/pages/index.tsx:55
+msgid "It’s time to start treating your security seriously. Level up your game by downloading Quill now."
+msgstr ""
+
+#: src/pages/index.tsx:69
+msgid "Keep your wallets away from the browser"
+msgstr ""
+
+#: src/components/DownloadLinks.tsx:39
+msgid "Linux"
+msgstr ""
+
+#: src/components/DownloadLinks.tsx:31
+msgid "MacOS"
+msgstr ""
+
+#: src/components/Features.tsx:24
+#: src/components/Features.tsx:26
+msgid "Manage your wallets offline"
+msgstr ""
+
+#: src/components/Overview.tsx:64
+#: src/components/Overview.tsx:66
+msgid "MetaMask"
+msgstr ""
+
+#: src/components/Overview.tsx:195
+msgid "Multiple accounts"
+msgstr ""
+
+#: src/components/Overview.tsx:157
+msgid "Open-source"
+msgstr ""
+
+#: src/pages/index.tsx:46
+msgid "Primary features of Quill"
+msgstr ""
+
+#: src/components/Overview.tsx:52
+#: src/components/Overview.tsx:54
+msgid "Quill"
+msgstr ""
+
+#: src/constants.ts:47
+msgid "Quill encrypts your keys for you so you can store your wallets confidently."
+msgstr ""
+
+#: src/constants.ts:52
+msgid "Quill is fully functional offline. Airgap your device for even more cold storage security!"
+msgstr ""
+
+#: src/components/Hero.tsx:30
+msgid "Quill overview"
+msgstr ""
+
+#: src/pages/index.tsx:98
+msgid "Safeguard your self-sovereignty by downloading Quill now."
+msgstr ""
+
+#: src/components/Overview.tsx:233
+msgid "Security focused"
+msgstr ""
+
+#: src/components/Hero.tsx:15
+msgid "Send your Ethereum transactions securely"
+msgstr ""
+
+#: src/constants.ts:63
+msgid "Setup your accounts"
+msgstr ""
+
+#: src/constants.ts:22
+msgid "Sign transactions"
+msgstr ""
+
+#: src/components/Features.tsx:19
+#: src/components/Features.tsx:21
+msgid "Store your funds securely"
+msgstr ""
+
+#: src/pages/index.tsx:30
+msgid "This quest can be dangerous. Take Quill with you."
+msgstr ""
+
+#: src/constants.ts:50
+msgid "Thrive offline"
+msgstr ""
+
+#: src/constants.ts:34
+msgid "Use Quill with any EVM-compatible blockchain, including Polygon, xDai, Binance Smart Chain, and more."
+msgstr ""
+
+#: src/components/Overview.tsx:214
+msgid "Useable offline/air-gapped"
+msgstr ""
+
+#: src/constants.ts:70
+msgid "Visit MyCrypto.com and connect to your new Quill wallet. Now you can send transaction requests from MyCrypto directly to Quill!"
+msgstr ""
+
+#: src/components/DownloadLinks.tsx:35
+msgid "Windows"
+msgstr ""

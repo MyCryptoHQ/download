@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "reactRuntime": "automatic"
+      }
+    ],
+    "@babel/preset-typescript",
+    "@lingui/babel-preset-react"
+  ],
+  "plugins": ["babel-plugin-styled-components"]
+}
