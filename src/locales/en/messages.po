@@ -34,10 +34,6 @@ msgstr ""
 msgid "All the features MyCrypto has to offer - accessible safely from your desktop."
 msgstr ""
 
-#: src/components/DownloadLinks.tsx:13
-msgid "Apple"
-msgstr ""
-
 #: src/components/Overview.tsx:100
 msgid "Compatible with EVM chains"
 msgstr ""
@@ -90,10 +86,6 @@ msgstr ""
 msgid "Exodus"
 msgstr ""
 
-#: src/components/Overview.tsx:157
-msgid "Fully open-source"
-msgstr ""
-
 #: src/constants.ts:65
 msgid "Generate a new 12-word secret recovery phrase and/or import and existing wallet."
 msgstr ""
@@ -126,12 +118,11 @@ msgstr ""
 msgid "Keep your wallets away from the browser"
 msgstr ""
 
-#: src/components/DownloadLinks.tsx:21
-#: src/components/DownloadLinks.tsx:22
+#: src/components/DownloadLinks.tsx:39
 msgid "Linux"
 msgstr ""
 
-#: src/components/DownloadLinks.tsx:14
+#: src/components/DownloadLinks.tsx:31
 msgid "MacOS"
 msgstr ""
 
@@ -147,6 +138,10 @@ msgstr ""
 
 #: src/components/Overview.tsx:195
 msgid "Multiple accounts"
+msgstr ""
+
+#: src/components/Overview.tsx:157
+msgid "Open-source"
 msgstr ""
 
 #: src/pages/index.tsx:46
@@ -215,7 +210,6 @@ msgstr ""
 msgid "Visit MyCrypto.com and connect to your new Quill wallet. Now you can send transaction requests from MyCrypto directly to Quill!"
 msgstr ""
 
-#: src/components/DownloadLinks.tsx:17
-#: src/components/DownloadLinks.tsx:18
+#: src/components/DownloadLinks.tsx:35
 msgid "Windows"
 msgstr ""
