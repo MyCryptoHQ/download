@@ -1,10 +1,9 @@
 import { Trans } from '@lingui/macro';
-import type { BoxProps} from '@mycrypto/ui';
+import type { BoxProps } from '@mycrypto/ui';
 import { Body, Box, Button } from '@mycrypto/ui';
 import type { FunctionComponent } from 'react';
 
 import { useVersion } from '../hooks';
-
 
 export const Download: FunctionComponent<BoxProps> = ({ ...props }) => {
   const version = useVersion();
