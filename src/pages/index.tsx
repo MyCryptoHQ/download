@@ -1,16 +1,16 @@
 import { t, Trans } from '@lingui/macro';
-import { Button, Container, Heading, InlineBody, SubHeading } from '@mycrypto/ui';
+import { Button, Carousel, Container, Heading, InlineBody, SubHeading } from '@mycrypto/ui';
 import type { FunctionComponent } from 'react';
 
 import {
   Banner,
+  Download,
   DownloadLinks,
   Features,
   Hero,
   Link,
   Page,
-  Section,
-  Slideshow
+  Section
 } from '../components';
 import { Overview } from '../components/Overview';
 import {
@@ -25,12 +25,18 @@ const Index: FunctionComponent = () => (
     <Section marginBottom="5">
       <Container>
         <Hero />
+        <Download display={['block', null, 'none']} />
         <DownloadLinks />
-        <Heading marginTop="6" textAlign="center">
+        <Heading
+          fontSize={['25px', null, '5']}
+          fontWeight={['900', null, '700']}
+          marginTop={['5', null, '6']}
+          textAlign="center"
+        >
           <Trans>This quest can be dangerous. Take Quill with you.</Trans>
         </Heading>
         <Features />
-        <Banner marginTop="3">
+        <Banner marginTop={['24px', null, '3']}>
           <Trans>
             <InlineBody fontWeight="bold">Looking for the Desktop App?</InlineBody> It's still{' '}
             <Link to={DESKTOP_APP_URL} isExternal={true}>
@@ -43,15 +49,15 @@ const Index: FunctionComponent = () => (
     </Section>
     <Section>
       <Container paddingY="5">
-        <Slideshow title={t`Primary features of Quill`} slides={FEATURES_SLIDES} />
+        <Carousel title={t`Primary features of Quill`} elements={FEATURES_SLIDES} />
       </Container>
     </Section>
     <Section>
-      <Container paddingY="6" textAlign="center">
+      <Container paddingY={['5', null, '6']} textAlign="center">
         <Heading>
           <Trans>Get Quill Now!</Trans>
         </Heading>
-        <SubHeading marginTop="3">
+        <SubHeading fontWeight="normal" marginTop="3">
           <Trans>
             It’s time to start treating your security seriously. Level up your game by downloading
             Quill now.
@@ -65,22 +71,23 @@ const Index: FunctionComponent = () => (
     </Section>
     <Section>
       <Container paddingY="5">
-        <Slideshow
+        <Carousel
           title={t`Keep your wallets away from the browser`}
-          slides={SECONDARY_FEATURES_SLIDES}
-          imagePosition="right"
+          elements={SECONDARY_FEATURES_SLIDES}
+          inverted={true}
         />
       </Container>
     </Section>
-    <Section>
+    <Section overflowX="auto">
       <Container
         marginY="6"
-        padding="5"
-        display="flex"
+        paddingY="5"
+        paddingX={['0', null, '5']}
+        display={['block', null, 'flex']}
         justifyContent="center"
         sx={{
-          border: '1px solid',
-          borderColor: 'overview.border',
+          border: ['none', null, '1px solid'],
+          borderColor: ['none', null, 'overview.border'],
           borderRadius: 'badge'
         }}
       >
@@ -89,7 +96,7 @@ const Index: FunctionComponent = () => (
     </Section>
     <Section>
       <Container paddingY="5">
-        <Slideshow title={t`Getting started with Quill`} slides={GETTING_STARTED_SLIDES} />
+        <Carousel title={t`Getting started with Quill`} elements={GETTING_STARTED_SLIDES} />
       </Container>
     </Section>
     <Section>

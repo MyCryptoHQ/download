@@ -1,4 +1,4 @@
-import { Box, Image } from '@mycrypto/ui';
+import { Body, Box, Image } from '@mycrypto/ui';
 import type { FunctionComponent } from 'react';
 
 export interface FeatureProps {
@@ -14,7 +14,16 @@ export const Feature: FunctionComponent<FeatureProps> = ({ image, alt, children 
     paddingX="3"
     alignItems="center"
   >
-    <Image src={image} alt={alt} marginRight="3" marginTop="-18px" marginBottom="2" />
-    {children}
+    <Image
+      src={image}
+      alt={alt}
+      width="55px"
+      height="55px"
+      marginRight="3"
+      marginTop="-18px"
+      marginBottom="2"
+      flexShrink="0"
+    />
+    <Body paddingY={['3', null, '1']}>{children}</Body>
   </Box>
 );

@@ -25,17 +25,30 @@ export const DownloadButton: FunctionComponent<ButtonProps> = ({ children, ...pr
 
 // TODO: Actually link the buttons to the download
 export const DownloadLinks: FunctionComponent = () => (
-  <Box>
-    <DownloadButton marginRight="3">
-      <Icon type="apple" fill="primary" width="20px" height="20px" marginRight="3" />
+  <Box
+    display="flex"
+    flexWrap="wrap"
+    justifyContent={['center', null, 'left']}
+    marginTop="3"
+    sx={{ gap: '3' }}
+  >
+    <DownloadButton>
+      <Icon type="apple" fill="primary" width="20px" height="20px" marginRight="3" flexShrink="0" />
       <Trans>MacOS</Trans>
     </DownloadButton>
-    <DownloadButton marginRight="3">
-      <Icon type="windows" fill="primary" width="20px" height="20px" marginRight="3" />
+    <DownloadButton>
+      <Icon
+        type="windows"
+        fill="primary"
+        width="20px"
+        height="20px"
+        marginRight="3"
+        flexShrink="0"
+      />
       <Trans>Windows</Trans>
     </DownloadButton>
     <DownloadButton>
-      <Icon type="linux" fill="primary" width="20px" height="20px" marginRight="3" />
+      <Icon type="linux" fill="primary" width="20px" height="20px" marginRight="3" flexShrink="0" />
       <Trans>Linux</Trans>
     </DownloadButton>
   </Box>
