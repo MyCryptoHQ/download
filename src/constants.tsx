@@ -1,4 +1,6 @@
-import { t } from '@lingui/macro';
+import { t, Trans } from '@lingui/macro';
+import type { CarouselElement } from '@mycrypto/ui';
+import { Body } from '@mycrypto/ui';
 
 import featuresSlide0 from './assets/images/features-slide-0.png';
 import featuresSlide1 from './assets/images/features-slide-1.png';
@@ -9,7 +11,6 @@ import gettingStartedSlide2 from './assets/images/getting-started-slide-2.svg';
 import secondaryFeaturesSlide0 from './assets/images/secondary-features-slide-0.svg';
 import secondaryFeaturesSlide1 from './assets/images/secondary-features-slide-1.svg';
 import secondaryFeaturesSlide2 from './assets/images/secondary-features-slide-2.svg';
-import type { Slide } from './components';
 
 /**
  * URL for the old desktop application.
@@ -17,57 +18,108 @@ import type { Slide } from './components';
  */
 export const DESKTOP_APP_URL = 'https://github.com/MyCryptoHQ/MyCrypto/releases/latest';
 
-export const FEATURES_SLIDES: Slide[] = [
+export const FEATURES_SLIDES: CarouselElement[] = [
   {
     title: t`Sign transactions`,
-    image: featuresSlide0,
-    text: t`Connect Quill to MyCrypto.com and approve your transactions directly from the desktop.`
+    icon: featuresSlide0,
+    text: (
+      <Body>
+        <Trans>
+          Connect Quill to MyCrypto.com and approve your transactions directly from the desktop.
+        </Trans>
+      </Body>
+    )
   },
   {
     title: t`Create wallets`,
-    image: featuresSlide1,
-    text: t`Create a 12-word secret recovery phrase to generate new wallets, and import all your other loose wallets.`
+    icon: featuresSlide1,
+    text: (
+      <Body>
+        <Trans>
+          Create a 12-word secret recovery phrase to generate new wallets, and import all your other
+          loose wallets.
+        </Trans>
+      </Body>
+    )
   },
   {
     title: t`Access any network`,
-    image: featuresSlide2,
-    text: t`Use Quill with any EVM-compatible blockchain, including Polygon, xDai, Binance Smart Chain, and more.`
+    icon: featuresSlide2,
+    text: (
+      <Body>
+        <Trans>
+          Use Quill with any EVM-compatible blockchain, including Polygon, xDai, Binance Smart
+          Chain, and more.
+        </Trans>
+      </Body>
+    )
   }
 ];
 
-export const SECONDARY_FEATURES_SLIDES: Slide[] = [
+export const SECONDARY_FEATURES_SLIDES: CarouselElement[] = [
   {
     title: t`Access securely`,
-    image: secondaryFeaturesSlide0,
-    text: t`All the features MyCrypto has to offer - accessible safely from your desktop.`
+    icon: secondaryFeaturesSlide0,
+    text: (
+      <Body>
+        <Trans>All the features MyCrypto has to offer - accessible safely from your desktop.</Trans>
+      </Body>
+    )
   },
   {
     title: t`Encrypt your keys`,
-    image: secondaryFeaturesSlide1,
-    text: t`Quill encrypts your keys for you so you can store your wallets confidently.`
+    icon: secondaryFeaturesSlide1,
+    text: (
+      <Body>
+        <Trans>Quill encrypts your keys for you so you can store your wallets confidently.</Trans>
+      </Body>
+    )
   },
   {
     title: t`Thrive offline`,
-    image: secondaryFeaturesSlide2,
-    text: t`Quill is fully functional offline. Airgap your device for even more cold storage security!`
+    icon: secondaryFeaturesSlide2,
+    text: (
+      <Body>
+        <Trans>
+          Quill is fully functional offline. Airgap your device for even more cold storage security!
+        </Trans>
+      </Body>
+    )
   }
 ];
 
-export const GETTING_STARTED_SLIDES: Slide[] = [
+export const GETTING_STARTED_SLIDES: CarouselElement[] = [
   {
     title: t`Install Quill`,
-    image: gettingStartedSlide0,
-    text: t`Download and install Quill for for your operating system of choice.`
+    icon: gettingStartedSlide0,
+    text: (
+      <Body>
+        <Trans>Download and install Quill for for your operating system of choice.</Trans>
+      </Body>
+    )
   },
   {
     title: t`Setup your accounts`,
-    image: gettingStartedSlide1,
-    text: t`Generate a new 12-word secret recovery phrase and/or import and existing wallet.`
+    icon: gettingStartedSlide1,
+    text: (
+      <Body>
+        <Trans>
+          Generate a new 12-word secret recovery phrase and/or import and existing wallet.
+        </Trans>
+      </Body>
+    )
   },
   {
     title: t`Connect to MyCrypto`,
-    image: gettingStartedSlide2,
-    text: t`Visit MyCrypto.com and connect to your new Quill wallet. Now you can send transaction requests from MyCrypto directly to Quill!`
+    icon: gettingStartedSlide2,
+    text: (
+      <Body>
+        <Trans>
+          Visit MyCrypto.com and connect to your new Quill wallet. Now you can send transaction
+          requests from MyCrypto directly to Quill!
+        </Trans>
+      </Body>
+    )
   }
 ];
 

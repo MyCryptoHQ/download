@@ -17,23 +17,28 @@ export const Overview: FunctionComponent = () => (
           textAlign: 'left',
           width: '165px',
           padding: '2',
-          paddingLeft: '0'
+          paddingLeft: ['3', null, '0']
         },
         ':nth-child(5)': {
-          borderLeft: '1px solid',
-          borderLeftColor: 'overview.border',
-          borderRight: '1px solid',
-          borderRightColor: 'overview.border'
+          borderLeft: ['none', null, '1px solid'],
+          borderLeftColor: ['none', null, 'overview.border'],
+          borderRight: ['none', null, '1px solid'],
+          borderRightColor: ['none', null, 'overview.border']
         },
         textAlign: 'center',
-        padding: '4',
-        borderBottom: '1px solid',
-        borderBottomColor: 'overview.border',
-        width: '150px',
+        padding: ['0', null, '4'],
+        paddingY: '4',
+        borderBottom: ['none', null, '1px solid'],
+        borderBottomColor: ['none', null, 'overview.border'],
+        width: ['100px', null, '155px'],
+        minWidth: '100px',
         boxSizing: 'border-box'
       },
       th: {
         padding: '2'
+      },
+      'tbody tr:nth-child(odd)': {
+        backgroundColor: ['background.muted', null, 'transparent']
       }
     }}
   >

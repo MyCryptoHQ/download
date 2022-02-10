@@ -26,7 +26,7 @@ export const theme = merge(defaultTheme, {
     },
     subHeading: {
       color: 'text.primary',
-      fontWeight: 'normal',
+      fontWeight: '700',
       lineHeight: '150%'
     }
   },
