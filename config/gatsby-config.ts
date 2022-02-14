@@ -6,7 +6,15 @@ const config: GatsbyConfig = {
     // TODO: Change to `quill`
     repository: 'MyCryptoHQ/MyCrypto'
   },
-  plugins: ['gatsby-plugin-styled-components']
+  plugins: [
+    'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-plugin-s3',
+      options: {
+        bucketName: 'download.mycrypto.com'
+      }
+    }
+  ]
 };
 
 export default config;
