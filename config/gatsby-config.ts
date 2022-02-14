@@ -11,7 +11,10 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-s3',
       options: {
-        bucketName: 'download.mycrypto.com'
+        bucketName: 'download.mycrypto.com',
+        protocol: 'https',
+        hostname: 'download.mycrypto.com',
+        generateRedirectObjectsForPermanentRedirects: true
       }
     }
   ]
